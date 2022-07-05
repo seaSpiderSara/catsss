@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class marcus_controller : MonoBehaviour
 {
-    /*
+    
    //bool for activating and deactivating Marcus controller
     public bool control_status = true;
 
@@ -34,5 +34,5 @@ public class marcus_controller : MonoBehaviour
     {
         marcusRB.MovePosition(marcusRB.position + _movement * mSpeed);
     }
-    */
+    
 }
