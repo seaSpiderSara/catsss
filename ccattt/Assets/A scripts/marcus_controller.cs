@@ -7,15 +7,17 @@ public class marcus_controller : MonoBehaviour
    //bool for activating and deactivating Marcus controller
     public bool control_status = true;
 
-
-    public float mSpeed = 10f;
+    //rigidbodies
     public Rigidbody2D marcusRB;
 
+
+    //movement
+    public float mSpeed = 10f;
     private Vector2 _movement;
 
     private void Start()
     {
-
+    
     }
 
     private void Update()
