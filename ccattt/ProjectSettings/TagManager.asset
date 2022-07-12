@@ -7,6 +7,8 @@ TagManager:
   - Laser
   - Enemy
   - look
+  - colli
+  - colli_back
   layers:
   - Default
   - TransparentFX
