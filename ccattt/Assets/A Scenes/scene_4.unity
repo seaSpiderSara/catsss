@@ -1324,8 +1324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 108
-    y: 85
+    x: 130
+    y: 82
     width: 79.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1386,9 +1386,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1303838375}
-  selectedCommands:
-  - {fileID: 1303838374}
+  - {fileID: 1303838322}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2616,7 +2615,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1303838373
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2634,7 +2633,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1303838374
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2648,7 +2647,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: 
+    stringVal: scene_5
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1303838375
