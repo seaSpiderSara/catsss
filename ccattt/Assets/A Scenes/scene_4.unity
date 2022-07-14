@@ -594,7 +594,8 @@ MonoBehaviour:
   nameText: Wasabi
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 3b5d8e39b31cea14a8b8e1b7311909a4, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1187,6 +1188,13 @@ GameObject:
   - component: {fileID: 1303838368}
   - component: {fileID: 1303838367}
   - component: {fileID: 1303838366}
+  - component: {fileID: 1303838370}
+  - component: {fileID: 1303838371}
+  - component: {fileID: 1303838372}
+  - component: {fileID: 1303838376}
+  - component: {fileID: 1303838375}
+  - component: {fileID: 1303838374}
+  - component: {fileID: 1303838373}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1316,8 +1324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 123
-    y: 127
+    x: 108
+    y: 85
     width: 79.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1378,8 +1386,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1303838322}
-  selectedCommands: []
+  - {fileID: 1303838375}
+  selectedCommands:
+  - {fileID: 1303838374}
   variables: []
   description: 
   stepPause: 0
@@ -1898,8 +1907,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 25
-    y: 182
+    x: 48
+    y: 185
     width: 70.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1913,7 +1922,7 @@ MonoBehaviour:
   - {fileID: 1303838351}
   - {fileID: 1303838356}
   - {fileID: 1303838349}
-  - {fileID: 1303838348}
+  - {fileID: 1303838372}
   - {fileID: 1303838353}
   - {fileID: 1303838359}
   - {fileID: 1303838360}
@@ -1922,15 +1931,19 @@ MonoBehaviour:
   - {fileID: 1303838364}
   - {fileID: 1303838363}
   - {fileID: 1303838365}
-  - {fileID: 1303838350}
+  - {fileID: 1303838370}
   - {fileID: 1303838354}
-  - {fileID: 1303838355}
+  - {fileID: 1303838371}
   - {fileID: 1303838357}
   - {fileID: 1303838368}
   - {fileID: 1303838366}
   - {fileID: 1303838352}
   - {fileID: 1303838367}
   - {fileID: 1303838369}
+  - {fileID: 1303838350}
+  - {fileID: 1303838355}
+  - {fileID: 1303838348}
+  - {fileID: 1303838376}
   suppressAllAutoSelections: 0
 --- !u!114 &1303838346
 MonoBehaviour:
@@ -1996,8 +2009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "I found it, so I guess he won\u2019t disturb you anymore\u2026 at least
-    tonight\u2026. I hope\u2026"
+  storyText: Thank you!
   description: 
   character: {fileID: 210861874}
   portrait: {fileID: 0}
@@ -2053,12 +2065,12 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 1103949604}
+  character: {fileID: 695677227}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 4a3829a2f26a8f242a0547a04e812bb8, type: 3}
+  portrait: {fileID: 21300000, guid: 3b5d8e39b31cea14a8b8e1b7311909a4, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1433787841}
+  toPosition: {fileID: 1906524849}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -2168,7 +2180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: "Ah\u2026 Well\u2026. I help you, this time..."
+  storyText: take it, and let me finally enjoy my night.
   description: 
   character: {fileID: 695677227}
   portrait: {fileID: 0}
@@ -2517,6 +2529,181 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1303838370
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303838316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1103949604}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4a3829a2f26a8f242a0547a04e812bb8, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1433787841}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1303838371
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303838316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  storyText: "Ah\u2026 Well\u2026. I help you, this time..."
+  description: 
+  character: {fileID: 695677227}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1303838372
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303838316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  storyText: "I found it, so I guess he won\u2019t disturb you anymore\u2026 at least
+    tonight\u2026. I hope\u2026"
+  description: 
+  character: {fileID: 210861874}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1303838373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303838316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &1303838374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303838316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: 
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1303838375
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303838316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 17
+    y: 283
+    width: 131.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 54
+  blockName: valmont finale
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1303838373}
+  - {fileID: 1303838374}
+  suppressAllAutoSelections: 0
+--- !u!114 &1303838376
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303838316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  text: Go to Valmont.
+  description: 
+  targetBlock: {fileID: 1303838375}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1385840801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2872,6 +3059,87 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1865149566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1865149570}
+  - component: {fileID: 1865149569}
+  - component: {fileID: 1865149568}
+  - component: {fileID: 1865149567}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1865149567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865149566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
+--- !u!114 &1865149568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865149566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1865149569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865149566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &1865149570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865149566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906524848
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,8 +3175,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 0.019531, y: -1241.2}
+  m_SizeDelta: {x: 2131.4, y: 1241.2}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1906524850
 MonoBehaviour:
